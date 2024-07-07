@@ -1,13 +1,3 @@
-/*
-- size
-- display
-- fonts
-- paddgins y margins 
-- bordes
-- color
-
-*/
-
 /*========== Vars ==========*/
 :root{
     /*========== Colors ==========*/
@@ -39,7 +29,7 @@
 }
 /*========== Card ==========*/
 .card-section{
-    max-width: 320px;
+    max-width: 20rem;
     padding: 1rem;
     border-radius: 20px;
     background-color: var(--White);
@@ -62,8 +52,9 @@
 .card-info__title{
     font-size: 1.375rem;
     margin-bottom: 1rem;
+    color: var(--dark-blue);
 }
 .card-info__description{
-    font-size: 15px;
+    font-size: 0.938rem;
     color: var(--grayish-blue);
 }
